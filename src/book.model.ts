@@ -1,4 +1,4 @@
-export class Product {
+class Book {
   id: number;
   code: string;
   name: string;
@@ -10,3 +10,5 @@ export class Product {
     this.price = price;
   }
 }
+
+export { Book };
